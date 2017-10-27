@@ -1,0 +1,71 @@
+@import "colors";
+@import "../../../css/reset";
+@import "font";
+
+.container-main {
+  min-height: 100vh;
+  background-image: url("../assets/camoBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .navigation {
+    background-color: $black;
+    padding: 20px 0;
+    text-align: center;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .page-header {
+    padding: 10vh 0 10vh 0;
+    font-weight: 800;
+    color: $orange-vivid;
+  }
+
+  .quote-row {
+    .quote-header {
+      color: white;
+      font-style: italic;
+    }
+
+    .next-btn {
+      color: $black;
+      background-color: $orange-vivid;
+      padding: 5px;
+      border-radius: 3px;
+    }
+
+    .container-quote {
+      height: 30vh;
+      margin-top: 5vh;
+      padding: 5vw;
+      background-color: $dk-grey-opaque;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 25px;
+      .quote {
+        color: $orange-vivid;
+        font-style: italic;
+      }
+    }
+    .twitter-icon {
+      color: $twitter-blue;
+      padding-top: 10px;
+    }
+    .twitter-label {
+      color: $twitter-blue;
+    }
+  }
+
+  footer {
+    color: $mid-grey;
+    background-color: $black;
+    padding: 3vh;
+  }
+}
+
+.caps {
+  font-variant: small-caps;
+}

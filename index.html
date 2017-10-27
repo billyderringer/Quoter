@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Si-Quoter</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/quoter-styles.css">
+
+    <!--Google Fonts -Montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,500,800" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://use.fontawesome.com/64f06bbe66.js"></script>
+</head>
+<body>
+<div class="container-fluid container-main">
+
+    <nav class="navigation">
+        <a href="http://billyderringer.com"><h6><< Back to portfolio</h6></a>
+    </nav>
+
+    <header class="page-header text-center caps">
+        <h1>Si-Quoter!</h1>
+    </header>
+    <div class="quote-row">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <div class="quote-header">
+                    <h2>"Hey Jack...</h2>
+                </div>
+            </div>
+            <div class="col-4 text-right">
+                <a class="next-btn" href="#">New Quote
+                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 container-quote">
+                <h3 class="quote text-center" id="quote">I'm so DOPE, I'm illegal in 55 states!"</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 text-center">
+                <a href="https://twitter.com/intent/tweet?text='I'm so DOPE, I'm illegal in 55 states!'"
+                   target="_blank" id="twitter-link">
+                    <i class="fa fa-twitter-square fa-2x twitter-icon" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center fixed-bottom">
+        <h6>© 2017 Billy Derringer</h6>
+    </footer>
+
+</div>
+
+<script src="jquery/jquery.js"></script>
+<script type="javascript" src="bootstrap/js/bootstrap.js"></script>
+<script src="js/scripts.js"></script>
+<script src="api/quotes.json"></script>
+</body>
+</html>
